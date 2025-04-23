@@ -52,7 +52,6 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
                 <a href="about" class="nav-item nav-link">About</a>
                 <a href="service" class="nav-item nav-link">Services</a>
             </div>
@@ -61,7 +60,6 @@
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="project" class="nav-item nav-link">Projects</a>
-                <a href="team" class="nav-item nav-link">Team</a>
                 <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -214,11 +212,6 @@
         </div>
     </div>
     <!-- Team End -->
-
-
-
-
-
 
     <!-- Copyright Start -->
     <div class="container-fluid bg-dark text-white py-4">
