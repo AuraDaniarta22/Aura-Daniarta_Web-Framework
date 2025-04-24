@@ -1,6 +1,7 @@
+<!-- filepath: c:\xampp2\htdocs\Aura-Daniarta_Web-Framework\app\Views\about.php -->
 <head>
     <meta charset="utf-8">
-    <title>Portfolio - Personal Portfolio HTML Template</title>
+    <title>Tentang Saya - Portfolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -38,8 +39,8 @@
     </div>
     <!-- Spinner End -->
 
-<!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary fw-bold m-0">Portfolio</h1>
         </a>
@@ -48,101 +49,59 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="about" class="nav-item nav-link">About</a>
-                <a href="service" class="nav-item nav-link">Services</a>
+                <a href="about" class="nav-item nav-link">Tentang Saya</a>
+                <a href="service" class="nav-item nav-link">Layanan</a>
             </div>
             <a href="index.php" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
                 <h1 class="text-primary fw-bold m-0">Portfolio</h1>
             </a>
             <div class="navbar-nav me-auto py-0">
-                <a href="project" class="nav-item nav-link">Projects</a>
-                <a href="contact" class="nav-item nav-link">Contact</a>
+                <a href="project" class="nav-item nav-link">Proyek</a>
+                <a href="contact" class="nav-item nav-link">Kontak</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-
- <!-- Contact Start -->
- <div class="container-xxl pb-5" id="contact">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Let's Work Together</h1>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
-                </div>
-            </div>
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
             <div class="row g-5">
-                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-2">My office:</p>
-                    <h3 class="fw-bold">Universitas Lampung</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Call me:</p>
-                    <h3 class="fw-bold">+08989230890</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Mail me:</p>
-                    <h3 class="fw-bold">artasduna181@gmail.com</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Follow me:</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/danidarta/profilecard/?igsh=MTJxcW9uYWs4ZWFvdw=="><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-4">Perjalanan Hidup Saya</h1>
+                    <p class="mb-4">
+                        Saya memulai perjalanan pendidikan saya di SDN 1 Rejomulyo, sebuah sekolah dasar yang penuh dengan kenangan indah. Di sana, saya belajar dasar-dasar ilmu pengetahuan dan membangun fondasi karakter yang kuat. Guru-guru yang sabar dan teman-teman yang menyenangkan membuat masa kecil saya penuh warna.
+                    </p>
+                    <p class="mb-4">
+                        Setelah menyelesaikan pendidikan dasar, saya melanjutkan ke SMPN 1 Natar. Masa SMP adalah waktu di mana saya mulai mengeksplorasi minat dan bakat saya. Saya aktif dalam berbagai kegiatan ekstrakurikuler, seperti olahraga dan seni, yang membantu saya mengembangkan keterampilan sosial dan kepemimpinan.
+                    </p>
+                    <p class="mb-4">
+                        Perjalanan saya berlanjut ke SMAS Al-Huda, sebuah sekolah menengah atas yang memberikan saya banyak pelajaran berharga. Di sini, saya mulai fokus pada bidang teknologi dan sains. Saya juga terlibat dalam berbagai proyek kelompok yang mengajarkan pentingnya kerja sama dan tanggung jawab.
+                    </p>
+                    <p class="mb-4">
+                        Saat ini, saya sedang menempuh pendidikan di jurusan Pendidikan Teknologi Informasi di Universitas Lampung. Sebagai mahasiswa, saya terus belajar dan berkembang dalam bidang teknologi, khususnya dalam pengembangan perangkat lunak dan desain. Saya percaya bahwa pendidikan adalah kunci untuk membuka peluang yang lebih besar di masa depan.
+                    </p>
+                    <p class="mb-0">
+                        Perjalanan ini telah membentuk saya menjadi pribadi yang bersemangat, optimis, dan selalu ingin belajar hal baru. Saya berharap dapat terus berkembang dan memberikan kontribusi positif bagi masyarakat.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- About End -->
 
     <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+</body>

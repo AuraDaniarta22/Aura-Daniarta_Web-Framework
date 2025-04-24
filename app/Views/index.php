@@ -132,27 +132,27 @@
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Percaya Tuhan</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Puasa 30 Hari</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Individu yang Ceria</p>
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="about">Read More</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="Gambar 1">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="Gambar 2">
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                        <h5 class="border-end pe-3 me-3 mb-0">Klien yang Puas</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
                     </div>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
+                    <p class="mb-4">Saya telah membantu banyak klien dengan berbagai proyek, mulai dari desain hingga pengembangan teknologi.</p>
                     <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h5 class="border-end pe-3 me-3 mb-0">Proyek Selesai</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
                     </div>
-                    <p class="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
+                    <p class="mb-0">Setiap proyek adalah kesempatan untuk belajar dan memberikan yang terbaik. Saya selalu berusaha memberikan hasil yang memuaskan.</p>
                 </div>
             </div>
         </div>

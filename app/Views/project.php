@@ -91,9 +91,21 @@
                 </div>
                 <!-- Galeri Gambar -->
                 <div id="gallery" class="mt-4"></div>
-                <div id="photoDetails" class="mt-3">
-                    <button type="button" class="btn btn-primary btn-sm mt-2" onclick="submitDetails()">Kirim</button>
-                </div>
+                <!-- filepath: c:\xampp2\htdocs\Aura-Daniarta_Web-Framework\app\Views\project.php -->
+            <div id="photoDetails" class="mt-3">
+                <form action="/images/upload" method="POST" enctype="multipart/form-data">
+                    <label for="image">Upload Gambar:</label>
+                    <input type="file" name="image" id="image" required class="form-control mb-2">
+                    
+                    <label for="description">Deskripsi:</label>
+                    <textarea name="description" id="description" required class="form-control mb-2"></textarea>
+                    
+                    <label for="category">Kategori:</label>
+                    <input type="text" name="category" id="category" required class="form-control mb-2">
+                    
+                    <button type="submit" class="btn btn-primary btn-sm mt-2">Kirim</button>
+                </form>
+            </div>
             </div>
         </div>
 
